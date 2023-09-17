@@ -7,12 +7,13 @@
 
 import { AppProps } from "next/app";
 import GlobalStyle from "../src/theme/GlobalStyle";
+import GlobalStyle2 from "../src/theme/GlobalStyle2";
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
-      Teste de componente middleware
+      <GlobalStyle2 />
+      {/* Teste de componente middleware */}
       <Component {...pageProps} />
     </>
   );
