@@ -1,6 +1,6 @@
 import { theme } from "./theme";
 
-export default function GlobalStyle() {
+export default function GlobalStyle2() {
   return (
     <style global jsx>{`
       * {
