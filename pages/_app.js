@@ -2,7 +2,7 @@
 //é basicamente um middlawre
 
 //Descrição da documentação:
-//"The Component prop is the active page, so whenever you navigate between routes, 
+//"The Component prop is the active page, so whenever you navigate between routes,
 //Component will change to the new page. Therefore, any props you send to Component will be received by the page."
 
 import { AppProps } from "next/app";
