@@ -4,7 +4,7 @@ const index = () => {
   return (
     <>
       <h1>Tá perdido?</h1>
-      {/* <Link href="/FAQPage">Ir para a página de perguntas</Link>; */}
+      {/* <Link href="/faq">Ir para a página de perguntas</Link>; */}
       <Link href={"/"}>Ir pra HOME</Link>
     </>
   );

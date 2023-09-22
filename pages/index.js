@@ -52,8 +52,8 @@ export default HomeScreen;
 //     <>
 //       {/* <GlobalStyle /> */}
 //       <Title as="h1">Alura Case - Home</Title>
-//       {/* <Link href="/FAQPage">Ir para a página de perguntas</Link>; */}
-//       <Link href={"/FAQPage"}>Ir para a página do FAQ</Link>
+//       {/* <Link href="/faq">Ir para a página de perguntas</Link>; */}
+//       <Link href={"/faq"}>Ir para a página do FAQ</Link>
 //       {/* <p>Contador: {contador}</p> */}
 //       {/* <button onClick={somandoContador}>clique</button> */}
 //       {/* <p className={styles.p}>Exemplo CSS modules</p> */}
