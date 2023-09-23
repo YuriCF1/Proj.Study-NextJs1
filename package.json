@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "npx http-server ./out -c-1"
+    "server": "npx http-server ./out -c-1",
+    "go": "npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
