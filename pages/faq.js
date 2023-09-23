@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 //Adding Head into pages
 import Head from "next/head";
 
+import PageTitle from "../src/components/Title";
+
 //Scripts originais
 // "scripts": {
 //   "dev": "next dev",
@@ -66,9 +68,10 @@ const faq = ({ faqRes }) => {
 
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>Home - Alura Cases Campanha</title>
-      </Head>
+      </Head> */}
+      <PageTitle>Home - Alura Cases Campanha</PageTitle>
       <h1>Alura Case - Página de perguntas FAQ</h1>
       <Link href="/">Ir para a home</Link>
       {/* <p>{faq[1].question}</p> */}
