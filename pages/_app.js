@@ -10,12 +10,32 @@ import GlobalStyle from "../src/theme/GlobalStyle";
 import GlobalStyle2 from "../src/theme/GlobalStyle2";
 
 import Head from "next/head";
+import Script from 'next/script'
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle2 />
       <Head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-G72TSB8J9S"
+        ></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            // <!-- Google tag (gtag.js) -->
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-G72TSB8J9S');
+            `,
+          }}
+        />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
