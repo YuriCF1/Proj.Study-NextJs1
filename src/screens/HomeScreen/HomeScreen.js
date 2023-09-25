@@ -314,12 +314,13 @@ export default function HomeScreen() {
                     >
                       Cadastrar
                     </Button>
+                    <Link href="/ssg">SSG</Link>
+                    <Link href="/ssr">SSR</Link>
                   </Box>
                 </Box>
               </Box>
             </Box>
           </Box>
-
           <SideImage />
         </Box>
       </Box>
